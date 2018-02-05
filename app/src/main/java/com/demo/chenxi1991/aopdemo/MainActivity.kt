@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         btn.setOnClickListener { onClick() }
     }
 
-    @TestAnnotation
+    @TestAnnotation("注解参数")
     private fun onClick(){
         Log.i("chenxi","normalContent")
     }

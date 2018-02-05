@@ -5,4 +5,4 @@ package com.demo.chenxi1991.aoplibrary.apt
  */
 @Target(AnnotationTarget.FUNCTION)
 @Retention(AnnotationRetention.RUNTIME)
-annotation class TestAnnotation
+annotation class TestAnnotation(val value: String)
